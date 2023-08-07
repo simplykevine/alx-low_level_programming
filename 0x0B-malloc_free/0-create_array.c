@@ -8,7 +8,7 @@
  * @size: size of the array
  * Return: 0 if successful
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *buffer;
 	unsigned int position;
